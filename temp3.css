@@ -1,0 +1,122 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#d1{
+    height: 100%;
+    width: 100%;
+}
+#hdr{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(245, 241, 220);
+    display: flex;
+    justify-content: space-between;
+}
+div img{
+    height: 60px;
+    width: 150px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+ul li{
+    padding: auto;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 10px;
+    background-color: white;
+    height: 50px;
+    width: 180px;
+    text-align: center;
+    line-height: 50px;
+
+}
+#d2{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin:0px auto;
+    height: 400px;
+    width: 960px;
+}
+#dv1{
+    height: 300px;
+    width: 290px;
+    background: linear-gradient(to bottom,lightblue,blue);
+    text-align: center;
+}
+#dv2{
+    height: 300px;
+    width: 290px;
+    background: linear-gradient(to bottom,lightgreen,green);
+    text-align: center;
+}
+#dv3{
+    height: 300px;
+    width: 290px;
+    text-align: center;
+    background: linear-gradient(to bottom,rgb(255, 196, 0),rgb(255, 145, 0));
+}
+h2,h3{
+    color: white;
+    margin:10px 10px;
+}
+.dv{
+height: 70px;
+width: 100%;
+background-color: black;
+opacity: 0.1;
+position: relative;
+top: -70px;
+}
+p{
+    color: aliceblue;
+    margin-top: -50px;
+}
+.btn{
+    margin: 30px;
+    background-color: chocolate;
+    border-radius: 10px;
+    box-shadow: 4px 5px black;
+    height: 40px;
+    width: 150px;
+    outline: none;
+    border: none;
+}
+.btn:active{
+    box-shadow: 0px 0px ; 
+  
+}
+#dv33{
+    height: 80px;
+    width: 950px;
+    background-color: bisque;
+    margin: 10px auto;
+}
+font{
+    line-height: 80px;
+    margin-left: 10px;
+}
+#bt1{
+    height: 40px;
+    width: 140px;
+    background: red;
+    border-radius: 6px;
+    color: aliceblue;
+    margin-left: 20px;
+    outline: none;
+    border: none;
+    box-shadow: 1px 5px black;
+    transition: 0.01s;
+}
+#bt1:active{
+    box-shadow: 0px 0px ;
+}
